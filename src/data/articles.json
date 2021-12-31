@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Dancing With The Devil",
+    "author": "Michael",
+    "blurb": "A quick weekend trip to Wisconsin to hike around devils lake.",
+    "start_date": "2022-03-02",
+    "end_date": "2022-03-06",
+    "location": "Devils Lake, WI",
+    "coordinates": [-89.73111771604941, 43.418733096806584],
+    "href": "1",
+    "hero": "moroccandays.jpg"
+  },
+  {
+    "title": "Swedish Fishing",
+    "author": "Rachel L",
+    "blurb": "A quick weekend trip to Wisconsin to hike around devils lake.",
+    "start_date": "2022-03-02",
+    "end_date": "2022-03-06",
+    "location": "Devils Lake, WI",
+    "coordinates": [-89.73111771604941, 43.418733096806584],
+    "href": "1",
+    "hero": "autumnclouds.jpg"
+  },
+  {
+    "title": "The Adventure Begins",
+    "hero": "snowcup.jpg",
+    "blurb": "A quick weekend trip to Wisconsin to hike around devils lake.",
+    "start_date": "2022-03-02",
+    "end_date": "2022-03-06",
+    "location": "Devils Lake, WI",
+    "coordinates": [-89.73111771604941, 43.418733096806584],
+    "href": "1",
+    "prominent": true
+  },
+  {
+    "title": "Paris in Spring",
+    "author": "John L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "christmas.jpg"
+  },
+  {
+    "title": "Youthful Independence",
+    "author": "Rachel L",
+    "location": "Political",
+    "coordinates": [],
+    "hero": "july4.jpg"
+  },
+  {
+    "title": "Trial By Fire",
+    "author": "Anthony R",
+    "location": "Cooking",
+    "coordinates": [],
+    "hero": "firepots.jpg"
+  },
+  {
+    "title": "Water Ventures",
+    "author": "Rachel L",
+    "location": "Leisure",
+    "coordinates": [],
+    "hero": "jellyfish.jpg"
+  },
+  {
+    "title": "Mt. Zekial",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "mountaincabin.jpg"
+  },
+  {
+    "title": "Cozumel Caves",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "lightcave.jpg"
+  },
+  {
+    "title": "Amazing Ireland",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "greengrass.jpg"
+  },
+  {
+    "title": "Cabin Fever",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "snowcabin.jpg"
+  },
+  {
+    "title": "To the ancient ruins",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "ruins.jpg"
+  },
+  {
+    "title": "New fashion trends",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "umbrella.jpg"
+  },
+  {
+    "title": "Go on a vacation",
+    "author": "Rachel L",
+    "location": "Travel",
+    "coordinates": [],
+    "hero": "adventurecave.jpg"
+  }
+]
