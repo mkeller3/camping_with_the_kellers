@@ -12,8 +12,7 @@
             :key="i"
             :href="item.href"
             class="ml-0 mr-3"
-            color="primary"
-            square
+            icon
             target="_blank"
           >
             <v-icon v-text="item.icon" />
@@ -43,7 +42,7 @@
         //   icon: 'mdi-twitter'
         // },
         {
-          href: '#!',
+          href: 'https://www.instagram.com/kellermich3/',
           icon: 'mdi-instagram'
         },
         // {

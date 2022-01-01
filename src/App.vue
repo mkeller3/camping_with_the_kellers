@@ -24,3 +24,11 @@ export default {
   }
 };
 </script>
+
+<style>
+
+.white-text {
+  color: #fff !important;
+}
+
+</style>

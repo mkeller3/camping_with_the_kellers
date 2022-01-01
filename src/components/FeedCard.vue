@@ -1,26 +1,17 @@
 <template>
-  <v-flex
-    xs12
-    :class="classes"
-  >
+  <v-flex xs12 :class="classes">
     <v-card
       :height="value.prominent ? 450 : 350"
       color="grey lighten-1"
       dark
-      :href="value.href"
-      
+      :href="`/article/${value.href}`"
     >
       <v-img
-        :src="require(`@/assets/articles/${value.hero}`)"
+        :src="`/articles/${value.hero}`"
         height="100%"
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
       >
-        <v-layout
-          fill-height
-          wrap
-          text-xs-right
-          ma-0
-        >
+        <v-layout fill-height wrap text-xs-right ma-0>
           <v-flex xs12>
             <v-chip
               label
@@ -28,7 +19,7 @@
               color="grey darken-3"
               text-color="white"
               small
-              @click.stop=""
+              :href="'map/' + value.href"
             >
               {{ value.location }}
             </v-chip>
@@ -40,9 +31,10 @@
             </p>
             <div class="caption white-text">
               {{ value.author }}
-              <br>
+              <br />
               <div v-if="value.formatted_start_date">
-                {{value.formatted_start_date}} - {{value.formatted_end_date}}
+                {{ value.formatted_start_date }} -
+                {{ value.formatted_end_date }}
               </div>
             </div>
           </v-flex>
@@ -52,7 +44,7 @@
               color="primary"
               small
               link
-              :href="value.href"
+              :href="'article/' + value.href"
             >
               Read More
             </v-chip>
@@ -64,46 +56,42 @@
 </template>
 
 <script>
-import moment from 'moment';
-  export default {
-    props: {
-      size: {
-        type: Number,
-        required: true
-      },
-      value: {
-        type: Object,
-        default: () => ({})
-      }
+import moment from "moment";
+export default {
+  props: {
+    size: {
+      type: Number,
+      required: true,
     },
+    value: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
 
-    computed: {
-      classes () {
-        return {
-          'md6': this.size === 2,
-          'md4': this.size === 3
-        }
-      }
+  computed: {
+    classes() {
+      return {
+        md6: this.size === 2,
+        md4: this.size === 3,
+      };
     },
-    mounted(){
-      if(this.value.start_date){
-        const start_date = moment(this.value.start_date);      
-        this.value.formatted_start_date = start_date.format("MMMM Do, YYYY");
-      }
-      if(this.value.end_date){
-        const end_date = moment(this.value.end_date);    
-        this.value.formatted_end_date = end_date.format("MMMM Do, YYYY");
-      }
+  },
+  mounted() {
+    if (this.value.start_date) {
+      const start_date = moment(this.value.start_date);
+      this.value.formatted_start_date = start_date.format("MMMM Do, YYYY");
     }
-  }
+    if (this.value.end_date) {
+      const end_date = moment(this.value.end_date);
+      this.value.formatted_end_date = end_date.format("MMMM Do, YYYY");
+    }
+  },
+};
 </script>
 
 <style>
 .v-image__image {
-  transition: .3s linear;
-}
-
-.white-text {
-  color: #fff !important;
+  transition: 0.3s linear;
 }
 </style>

@@ -11,14 +11,14 @@
     "hero": "moroccandays.jpg"
   },
   {
-    "title": "Swedish Fishing",
-    "author": "Rachel L",
-    "blurb": "A quick weekend trip to Wisconsin to hike around devils lake.",
-    "start_date": "2022-03-02",
-    "end_date": "2022-03-06",
-    "location": "Devils Lake, WI",
-    "coordinates": [-89.73111771604941, 43.418733096806584],
-    "href": "1",
+    "title": "Camping in Comlara",
+    "author": "Brittany",
+    "blurb": "It doesn't take a long distance to go camping.",
+    "start_date": "2022-04-23",
+    "end_date": "2022-04-16",
+    "location": "Hudson, IL",
+    "coordinates": [-89.03842914915772, 40.64248838721733],
+    "href": "2",
     "hero": "autumnclouds.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "end_date": "2022-03-06",
     "location": "Devils Lake, WI",
     "coordinates": [-89.73111771604941, 43.418733096806584],
-    "href": "1",
+    "href": "3",
     "prominent": true
   },
   {

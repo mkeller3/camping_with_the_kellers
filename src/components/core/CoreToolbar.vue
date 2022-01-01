@@ -3,7 +3,7 @@
     <v-container mx-auto py-0>
       <v-layout>
         <v-img
-          :src="require('@/assets/logo.png')"
+          src="/favicon.ico"
           class="mr-5"
           contain
           height="48"
@@ -16,17 +16,18 @@
           :href="link.href"       
           text
           tile
+          class="mt-1"
         >
           {{ link.text }}
         </v-btn>
         <v-spacer />
-        <v-text-field
+        <!-- <v-text-field
           append-icon="mdi-magnify"
           flat
           hide-details
           solo-inverted
           style="max-width: 300px"
-        />
+        /> -->
       </v-layout>
     </v-container>
   </v-toolbar>
@@ -47,10 +48,10 @@ export default {
         text: "Home",
         href: "/",
       },
-      {
-        text: "About",
-        href: "/about",
-      },
+      // {
+      //   text: "About",
+      //   href: "/about",
+      // },
     ],
   }),
   //   computed: {

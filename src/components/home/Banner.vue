@@ -4,7 +4,7 @@
       class="grey lighten-2"
       height="600"
       width="100%"
-      :src="require('@/assets/articles/airstream.jpg')"
+      :src="'/articles/airstream.jpg'"
     >
       <v-layout
         fill-height

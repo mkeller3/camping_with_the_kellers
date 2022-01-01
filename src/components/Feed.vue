@@ -61,7 +61,7 @@ export default {
   data: () => ({
     layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3],
     page: 1,
-    articles: require('@/data/articles.json'),
+    articles: require('../../public/data/articles.json'),
   }),
 
   computed: {
