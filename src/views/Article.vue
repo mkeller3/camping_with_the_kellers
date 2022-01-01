@@ -62,6 +62,7 @@ export default {
       for (let prop in articleDetails) {
         this.article[prop] = articleDetails[prop];
       }
+      document.title = `${this.article.title} | Camping With The Keller's`
       if (this.article.start_date) {
         const start_date = moment(this.article.start_date);
         this.article.formatted_start_date = start_date.format("MMMM Do, YYYY");
